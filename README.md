@@ -27,10 +27,10 @@ The recursion should trigger a SystemStackError and the spec should pass. e.g.
 Actual Result
 -------------
 
-ruby-1.9.3-p448         [pass]
-ruby-2.0.0-p247         [pass]
-ruby-2.1.0-p0           [segfault]
-ruby-2.1.1-p76          [segfault]
+    ruby-1.9.3-p448         [pass]
+    ruby-2.0.0-p247         [pass]
+    ruby-2.1.0-p0           [segfault]
+    ruby-2.1.1-p76          [segfault]
 
 Both rspec 2.14.1 and 3.0.0.beta2 exhibit the same behaviour.
 
